@@ -1,0 +1,9 @@
+.test {
+    font-family: 'segoe ui light';
+    color: blue;
+    font-weight: bolder
+}
+.text {
+    background-color: teal;
+    font-weight: bolder;
+}
