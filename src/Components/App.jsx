@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { createBrowserRouter, createHashRouter, RouterProvider,  } from "react-router-dom";
+import { createBrowserRouter,  RouterProvider,  } from "react-router-dom";
 import Home from "./Home/Home";
 import About from "./About/About";
 import Gallery from "./Gallery/Gallery";
@@ -41,7 +41,7 @@ export default function App() {
 
   
 
-  const routers = createHashRouter([
+  const routers = createBrowserRouter([
     {
       path: '/',
       element: <Layout userData={userData} setUserData={setUserData} />,
