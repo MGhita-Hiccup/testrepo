@@ -12,9 +12,9 @@ export default  function About() {
                         <p className=' fw-medium mb-2'>Apps for movie & TV show fans</p>
                         <p className='text-primary'>We show you where you can legally watch movies
                         and TV shows that you love. You are kept up to date with what is new
-                        on Netflix, Amazon Prime, Apple TV and many other streaming platforms
+                        on Netflix, Amazon<p>djiaoifjdfiojdfmodjf</p> Prime, Apple TV and many other streaming platforms
                         . Our simple filter system allows you to see only what is important to you.
-                        We also allow users to track their favorite shows and movies,
+                        We<h1>hi</h1> also allow users to track their favorite shows and movies,
                         and can notify you when a title is availble on one of your services..</p>
                      </div>
                      
