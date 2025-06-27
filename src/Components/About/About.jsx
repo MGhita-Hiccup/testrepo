@@ -12,9 +12,9 @@ export default  function About() {
                         <p className=' fw-medium mb-2'>Apps for movie & TV show fans</p>
                         <p className='text-primary'>We show you where you can legally watch movies
                         and TV shows that you love. You are kept up to date with what is new
-                        on Netflix, Amazon<p>djiaoifjdfiojdfmodjf</p> Prime, Apple TV and many other streaming platforms
+                        on Netflix, Amazon Prime, Apple TV and many other streaming platforms
                         . Our simple filter system allows you to see only what is important to you.
-                        We<h1>hi</h1> also allow users to track their favorite shows and movies,
+                        We also allow users to track their favorite shows and movies,
                         and can notify you when a title is availble on one of your services..</p>
                      </div>
                      
@@ -40,8 +40,7 @@ export default  function About() {
                      </div>
                      <div className='col-md-4'>
                         <div className='item'>
-                           <p className='fw-medium'>If you would like to find out more about opportunities to work with us, visit our talent page, we are always looking to get more skilled and inspired people on our team.
-</p>
+                           <p className='fw-medium'>If you would like to find out more about opportunities to work with us, visit our talent page, we are always looking to get more skilled and inspired people on our team.</p>
                         </div>
                      </div>
                      <div className='col-md-4'>
@@ -49,17 +48,12 @@ export default  function About() {
                            <p className='fw-medium'>If you are interested in running campaigns with us for your upcoming movie, home entertainment release or VOD service we are happy to hear from you.</p>
                         </div>
                      </div>
-
-                    
-
                  </div>
 
                </div>
 
             </div>
             </div>
-             
-
         </>)
     }
 

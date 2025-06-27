@@ -59,13 +59,7 @@ export default function Navbar({ userData, setUserData  }) {
             </form>
             
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item d-flex me-2">
-                <a className="nav-link text-white" href="#"><i className='fab fa-facebook'></i></a>
-                <a className="nav-link text-white" href="#"><i className='fab fa-instagram'></i></a>
-                <a className="nav-link text-white" href="#"><i className='fab fa-whatsapp'></i></a>
-                <a className="nav-link text-white" href="#"><i className='fab fa-twitter'></i></a>
-                <a className="nav-link text-white" href="#"><i className='fab fa-spotify'></i></a>
-              </li>
+              
 
               {userData ? (
                 <>
