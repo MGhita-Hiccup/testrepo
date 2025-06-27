@@ -10,7 +10,8 @@ export default function People() {
       <div className='bacImg py-4'>
         <h4 className='lead'>Expand Your Mind</h4>
       </div>
-      
+       <br/>
+       <br/>
         <div className="row gy-2 mb-3">
           <div className="col-md-4">
             <img 
@@ -19,6 +20,8 @@ export default function People() {
               alt="Campaign" 
             />
           </div>
+          <br/>
+          <br/>
           <div className="col-md-7 offset-md-1 d-flex align-items-center">
             <div className="mt-md-0 mt-4">
               <h5 className="fw-bolder text-muted">OSN+ Movie</h5>
