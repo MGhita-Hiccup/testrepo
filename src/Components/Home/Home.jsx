@@ -21,7 +21,7 @@ export default function Home() {
     
         return (<>
           <h1 className='text-center' style={{color:'red' , backgroundColor:'gray'}}>Home Page</h1>
-          <div className="row text-center gy-2">
+          <div className="row text-center gy-6">
             <div className='col-md-3'>
               <h3 className='h6'>Get Trending Movies</h3> <br/> <h3 className='lead'> Right Now</h3>
               <br/> <br/>

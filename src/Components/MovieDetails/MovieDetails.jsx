@@ -21,10 +21,10 @@ export default function MovieDetails() {
     
   return (
     
-    <div className='row'>
+    <div className='row gy-6'>
         <div className='col-md-3 py-4'>
-             { itemDetails.profile_path? <img className='w-100 h-100' src= {'https://image.tmdb.org/t/p/w500' + itemDetails.profile_path} />: ''}
-                { itemDetails.poster_path? <img className='w-100 h-100' src= {'https://image.tmdb.org/t/p/w500' + itemDetails.poster_path} />:''}
+             { itemDetails.profile_path? <img className='w-100 hight-img' src= {'https://image.tmdb.org/t/p/w500' + itemDetails.profile_path} />: ''}
+                { itemDetails.poster_path? <img className='w-100 hight-img' src= {'https://image.tmdb.org/t/p/w500' + itemDetails.poster_path} />:''}
                 {!itemDetails.poster_path && !itemDetails.profile_path? <img className='w-100 hight-img' src={profile3}/> :''}
         </div>
         <div className='col-md-9'>
